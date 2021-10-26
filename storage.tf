@@ -33,8 +33,8 @@ data "azurerm_storage_account_blob_container_sas" "static_web_container_sas" {
   container_name    = data.azurerm_storage_container.static_web_container.name
   https_only        = true
 
-  start  = "2021-09-20T00:00:00Z"
-  expiry = "2021-10-20T00:00:00Z"
+  start  = "2021-10-20T00:00:00Z"
+  expiry = "2022-04-20T00:00:00Z"
 
   permissions {
     read   = true
